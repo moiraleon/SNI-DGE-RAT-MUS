@@ -1,0 +1,5 @@
+metric,value
+total_genes_tested,17014
+significant_genes_padj_0.05,7005
+upregulated_log2FC_gt_1,2018
+downregulated_log2FC_lt_minus_1,1753
