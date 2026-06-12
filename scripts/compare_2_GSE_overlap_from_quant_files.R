@@ -4,10 +4,10 @@ setwd("~/Desktop/Professional/Development/Masters Data Analysis Scripts/SNI-DGE-
 # User-defined settings
 # =========================================================
 
-METADATA_FILE <- "metadata/SNI_MUS_2_FEMALE_GSE123919_VS_GSE241361_METADATA.csv"
+METADATA_FILE <- "metadata/SNI_MUS_2_FEMALE_GSE241361_VS_GSE123919_METADATA.csv"
 
-GSE_A <- "GSE123919"
-GSE_B <- "GSE241361"
+GSE_A <- "GSE241361"
+GSE_B <- "GSE123919"
 
 TPM_THRESHOLD <- 1
 

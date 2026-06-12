@@ -21,9 +21,9 @@ cat("Libraries loaded successfully.\n\n")
 # =========================================================
 
 TPM_FILE <- "final_matrix/gene_level_TPM_matrix.csv"
-METADATA_FILE <- "metadata/SNI_MUS_2_FEMALE_GSE123919_VS_GSE241361_METADATA.csv"
+METADATA_FILE <- "metadata/SNI_MUS_2_FEMALE_GSE241361_VS_GSE123919_METADATA.csv"
 
-OUTPUT_DIR <- "VIS_PCA_analysis/PostBatchEffectControl/GSE123919_VS_GSE241361"
+OUTPUT_DIR <- "VIS_PCA_analysis/PostBatchEffectControl/GSE241361_VS_GSE123919"
 
 # =========================================================
 # Create output directory

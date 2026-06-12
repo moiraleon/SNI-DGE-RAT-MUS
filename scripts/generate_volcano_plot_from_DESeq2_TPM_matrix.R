@@ -15,9 +15,9 @@ cat("Libraries loaded successfully.\n\n")
 # User-defined settings
 # =========================================================
 
-DESEQ2_RESULTS_FILE <- "final_matrix/deseq2_results_SNI_MUS_2_FEMALE_GSE123919_VS_GSE241361.csv"
+DESEQ2_RESULTS_FILE <- "final_matrix/deseq2_results_SNI_MUS_2_FEMALE_GSE241361_VS_GSE123919.csv"
 
-OUTPUT_DIR <- "VIS_volcano_plot_analysis/PostBatchEffectControl/GSE123919_VS_GSE241361"
+OUTPUT_DIR <- "VIS_volcano_plot_analysis/PostBatchEffectControl/GSE241361_VS_GSE123919"
 
 # =========================================================
 # Create output directory
