@@ -1,0 +1,6 @@
+metric,value
+target_gse,GSE202166
+total_genes_tested,13947
+significant_genes_padj_0.05,9
+upregulated_log2FC_gt_1,6
+downregulated_log2FC_lt_minus_1,3
