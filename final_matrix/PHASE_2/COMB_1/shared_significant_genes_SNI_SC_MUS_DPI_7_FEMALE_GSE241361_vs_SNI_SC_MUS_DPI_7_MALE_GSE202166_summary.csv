@@ -1,0 +1,8 @@
+metric,value
+gse_a,SNI_SC_MUS_DPI_7_FEMALE_GSE241361
+gse_b,SNI_SC_MUS_DPI_7_MALE_GSE202166
+significant_genes_gse_a,119
+significant_genes_gse_b,9
+shared_significant_genes,2
+gse_a_only_significant_genes,117
+gse_b_only_significant_genes,7
