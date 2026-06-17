@@ -22,11 +22,11 @@ setwd("~/Desktop/Professional/Development/Masters Data Analysis Scripts/SNI-DGE-
 # User-defined settings
 # =========================================================
 
-METADATA_FILE <- "metadata/SNI_SC_MUS_MALE_GSE202166_VS_FEMALE_GSE241361_METADATA.CSV"
+METADATA_FILE <- "metadata/SNI_SC_MUS_2_MALE_GSE306455_VS_GSE202166_METADATA.CSV"
 COUNTS_FILE <- "final_matrix/gene_level_counts_matrix.csv"
 
-DESEQ2_RESULTS_FILE <- "final_matrix/deseq2_results_SNI_SC_MUS_MALE_GSE202166_VS_FEMALE_GSE241361.csv"
-DESEQ2_SUMMARY_FILE <- "final_matrix/deseq2_summary_SNI_SC_MUS_MALE_GSE202166_VS_FEMALE_GSE241361.csv"
+DESEQ2_RESULTS_FILE <- "final_matrix/deseq2_results_SNI_SC_MUS_2_MALE_GSE306455_VS_GSE202166.csv"
+DESEQ2_SUMMARY_FILE <- "final_matrix/deseq2_summary_SNI_SC_MUS_2_MALE_GSE306455_VS_GSE202166.csv"
 
 cat("\n==============================\n")
 cat("Starting DESeq2 Differential Expression Pipeline\n")
