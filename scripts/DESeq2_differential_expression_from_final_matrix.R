@@ -22,11 +22,11 @@ setwd("~/Desktop/Professional/Development/Masters Data Analysis Scripts/SNI-DGE-
 # User-defined settings
 # =========================================================
 
-METADATA_FILE <- "metadata/SNI_MUS_MALE_GSE261676_VS_FEMALE_GSE241361_METADATA.csv"
+METADATA_FILE <- "metadata/SNI_SC_MUS_MALE_GSE202166_VS_FEMALE_GSE241361_METADATA.CSV"
 COUNTS_FILE <- "final_matrix/gene_level_counts_matrix.csv"
 
-DESEQ2_RESULTS_FILE <- "final_matrix/deseq2_results_SNI_MUS_MALE_GSE261676_VS_FEMALE_GSE241361.csv"
-DESEQ2_SUMMARY_FILE <- "final_matrix/deseq2_summary_SNI_MUS_MALE_GSE261676_VS_FEMALE_GSE241361.csv"
+DESEQ2_RESULTS_FILE <- "final_matrix/deseq2_results_SNI_SC_MUS_MALE_GSE202166_VS_FEMALE_GSE241361.csv"
+DESEQ2_SUMMARY_FILE <- "final_matrix/deseq2_summary_SNI_SC_MUS_MALE_GSE202166_VS_FEMALE_GSE241361.csv"
 
 cat("\n==============================\n")
 cat("Starting DESeq2 Differential Expression Pipeline\n")
@@ -145,18 +145,24 @@ cat("Maximum count:", max(count_matrix), "\n\n")
 
 cat("STEP 6: Creating DESeq2 dataset...\n")
 
-metadata$condition <- factor(metadata$condition)
+# metadata$condition <- factor(metadata$condition)
+# metadata$gse <- factor(metadata$gse)
+
+metadata$condition <- relevel(factor(metadata$condition), ref = "CTRL")
 metadata$gse <- factor(metadata$gse)
 
 cat("Condition by GSE table:\n")
 print(table(metadata$gse, metadata$condition))
 cat("\n")
 
+stopifnot(all(colnames(count_matrix) == rownames(metadata)))
+
 dds <- DESeqDataSetFromMatrix(
   countData = count_matrix,
   colData = metadata,
-  design = ~ gse
-#   design = ~ gse + condition
+#  design = ~ gse
+
+   design = ~ gse + condition
 )
 
 cat("DESeq2 dataset created successfully.\n")
@@ -190,7 +196,8 @@ cat("DESeq2 analysis complete.\n\n")
 
 cat("STEP 9: Extracting DESeq2 results...\n")
 
-res <- results(dds)
+# res <- results(dds)
+res <- results(dds, contrast = c("condition", "SNI", "CTRL"))
 
 cat("Results extracted.\n")
 cat("Result columns:\n")
