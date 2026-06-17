@@ -4,7 +4,7 @@ setwd("~/Desktop/Professional/Development/Masters Data Analysis Scripts/SNI-DGE-
 # User-defined settings
 # =========================================================
 
-ANALYSIS_NAME <- "SNI_SC_MUS_DPI_7_MALE_GSE202166_SNI_vs_CTRL"
+ANALYSIS_NAME <- "SNI_SC_MUS_2_MALE_GSE306455_VS_GSE202166"
 
 DESEQ2_RESULTS_FILE <- paste0(
   "final_matrix/deseq2_results_",
