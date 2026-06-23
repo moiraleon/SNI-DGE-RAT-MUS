@@ -7,24 +7,27 @@ library(dplyr)
 # User-defined settings
 # =========================================================
 
-FILE_NAME <- "SNI_SC_MUS_DPI_7_FEMALE_GSE241361"
+FILE_NAME <- "SNI_SC_MUS_2_MALE_GSE306455_VS_GSE202166"
 
 DESEQ2_RESULTS_FILE <- paste0(
   "final_matrix/deseq2_results_",
   FILE_NAME,
-  "_SNI_vs_CTRL.csv"
+  #"_SNI_vs_CTRL.csv"
+  ".csv"
 )
 
 ION_CHANNEL_RESULTS_FILE <- paste0(
   "final_matrix/ion_channels_ranked_",
   FILE_NAME,
-  "_SNI_vs_CTRL.csv"
+ # "_SNI_vs_CTRL.csv"
+ ".csv"
 )
 
 UPREGULATED_ION_CHANNELS_FILE <- paste0(
   "final_matrix/upregulated_ion_channels_",
   FILE_NAME,
-  "_SNI_vs_CTRL.csv"
+  #"_SNI_vs_CTRL.csv"
+  ".csv"
 )
 
 # =========================================================
