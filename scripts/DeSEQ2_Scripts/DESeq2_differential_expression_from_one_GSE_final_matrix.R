@@ -4,11 +4,11 @@ setwd("~/Desktop/Professional/Development/Masters Data Analysis Scripts/SNI-DGE-
 # User-defined settings
 # =========================================================
 
-METADATA_FILE <- "metadata/SNI_SC_MUS_DPI_7_MALE_GSE202166_METADATA.CSV"
+METADATA_FILE <- "metadata/SNI_SC_MUS_DPI_7_FEMALE_GSE241361_METADATA.CSV"
 COUNTS_FILE <- "final_matrix/gene_level_counts_matrix.csv"
 
-FILE_NAME <- "SNI_SC_MUS_DPI_7_MALE_GSE202166"
-TARGET_GSE <- "GSE202166"
+FILE_NAME <- "SNI_SC_MUS_DPI_7_FEMALE_GSE241361"
+TARGET_GSE <- "GSE241361"
 
 DESEQ2_RESULTS_FILE <- paste0("final_matrix/deseq2_results_", FILE_NAME, "_SNI_vs_CTRL.csv")
 DESEQ2_SUMMARY_FILE <- paste0("final_matrix/deseq2_summary_", FILE_NAME, "_SNI_vs_CTRL.csv")
