@@ -77,7 +77,7 @@ res <- res %>%
       TRUE ~ "Not Significant"
     ),
 
-    neg_log10_padj = -log10(padj)
+    neg_log10_padj = -log10(pmax(padj, 1e-300))
   )
 
 cat("Significance classification complete.\n\n")
@@ -117,6 +117,15 @@ volcano <- ggplot(
     alpha = 0.7,
     size = 1.5
   ) +
+  scale_color_manual(
+    values = c(
+      "Upregulated" = "red",
+      "Downregulated" = "blue",
+      "Not Significant" = "gray70"
+    ),
+    breaks = c("Upregulated", "Downregulated", "Not Significant"),
+    name = "Gene classification"
+  ) +
   geom_vline(
     xintercept = c(-1, 1),
     linetype = "dashed"
@@ -127,9 +136,9 @@ volcano <- ggplot(
   ) +
   theme_minimal() +
   labs(
-    title = "Volcano Plot",
-    x = "log2 Fold Change",
-    y = "-log10 Adjusted P-value"
+    title = "Volcano Plot: Male vs Female SNI Spinal Cord",
+    x = expression(log[2]~Fold~Change),
+    y = expression(-log[10]~adjusted~italic(p)*-value)
   )
 
 cat("Volcano plot generated successfully.\n\n")
