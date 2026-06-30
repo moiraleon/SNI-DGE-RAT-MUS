@@ -1,0 +1,2 @@
+gene_symbol,marker_group,marker_level,interpretation,ensembl_gene_id,baseMean,log2FoldChange,pvalue,padj,classification
+Gal,Inhibitory,Subtype-associated,Inhibitory subtype-associated marker,ENSMUSG00000024907,108.2816297421499,1.3322530259296113,1.2120921853342264e-5,0.03212308822589976,Significant increased

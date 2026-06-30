@@ -1,0 +1,18 @@
+gene_symbol,marker_group,marker_level,interpretation,ensembl_gene_id,baseMean,log2FoldChange,pvalue,padj,classification
+Gad2,Inhibitory,Core identity,GABA synthesis,ENSMUSG00000026787,7.67697024000713,0.17723479149501825,0.7559952308757525,0.9999745046429632,Not significant
+Gad1,Inhibitory,Core identity,GABA synthesis,ENSMUSG00000070880,2693.1462191329256,-0.08914510898964004,0.3860280500745927,0.9999745046429632,Not significant
+Slc6a5,Inhibitory,Core identity,Glycinergic inhibitory marker,ENSMUSG00000039728,13792.392243784674,-0.1759174297961323,0.00112712943781599,0.09882260887852964,Not significant
+Slc32a1,Inhibitory,Core identity,Vesicular inhibitory transmitter transporter,NA,NA,NA,NA,NA,Not found in DESeq2 results
+Pax2,Inhibitory,Core identity,Inhibitory interneuron-associated transcription factor,NA,NA,NA,NA,NA,Not found in DESeq2 results
+Gal,Inhibitory,Subtype-associated,Inhibitory subtype-associated marker,ENSMUSG00000024907,434.18734129366,1.6491509065103984,4.582504426705336e-18,1.3942780702776916e-14,Significant increased
+Npy,Inhibitory,Subtype-associated,Inhibitory subtype-associated marker,ENSMUSG00000029819,624.4947286382647,1.1284516693608502,1.5299523057529564e-12,1.5690753718572107e-9,Significant increased
+Nos1,Inhibitory,Subtype-associated,Inhibitory subtype-associated marker,ENSMUSG00000029361,3.432510301070401,0.8247367736282474,0.3520127658907037,0.9999745046429632,Not significant
+Pdyn,Inhibitory,Subtype-associated,Inhibitory subtype-associated marker,ENSMUSG00000027400,2.620757670912566,-0.14394509490517557,0.8789376471211814,0.9999745046429632,Not significant
+Slc17a6,Excitatory,Core identity,Vesicular glutamate transporter; broad excitatory marker,ENSMUSG00000030500,27.46583147449156,4.752589658670796e-4,0.9987844900964294,0.9999745046429632,Not significant
+Grp,Excitatory,Subtype-associated,Excitatory subtype-associated marker,ENSMUSG00000024517,1.497253802351017,4.03066979220813,0.06845303120559353,NA,Not significant
+Prkcg,Excitatory,Subtype-associated,Excitatory subtype-associated marker,ENSMUSG00000078816,1.2223453548691972,2.861712926918525,0.24756667806554816,NA,Not significant
+Cck,Excitatory,Subtype-associated,Excitatory subtype-associated marker,ENSMUSG00000032532,33.145529564645166,-0.01918953608923858,0.9817975836840568,0.9999745046429632,Not significant
+Rorb,Excitatory,Subtype-associated,Excitatory subtype-associated marker,ENSMUSG00000036192,350.46914736685653,-0.09989794691124348,0.3969316762882709,0.9999745046429632,Not significant
+Tac1,Excitatory,Subtype-associated,Excitatory subtype-associated marker,ENSMUSG00000061762,1.2442661294467383,-1.2169486691383795,0.42284394020659827,NA,Not significant
+Sst,Excitatory,Subtype-associated,Excitatory subtype-associated marker,NA,NA,NA,NA,NA,Not found in DESeq2 results
+Crh,Excitatory,Subtype-associated,Excitatory subtype-associated marker,NA,NA,NA,NA,NA,Not found in DESeq2 results

@@ -1,0 +1,18 @@
+gene_symbol,marker_group,marker_level,interpretation,ensembl_gene_id,baseMean,log2FoldChange,pvalue,padj,classification
+Gad1,Inhibitory,Core identity,GABA synthesis,ENSMUSG00000070880,923.127014977974,-0.10589592831533257,0.9081506665542508,0.9999842964361042,Not significant
+Slc6a5,Inhibitory,Core identity,Glycinergic inhibitory marker,ENSMUSG00000039728,8189.836806959139,-0.1295531963276609,0.3768766802864272,0.9999842964361042,Not significant
+Gad2,Inhibitory,Core identity,GABA synthesis,ENSMUSG00000026787,2.087939651047624,-2.4849361197996593,0.37140719965176566,0.9999842964361042,Not significant
+Slc32a1,Inhibitory,Core identity,Vesicular inhibitory transmitter transporter,NA,NA,NA,NA,NA,Not found in DESeq2 results
+Pax2,Inhibitory,Core identity,Inhibitory interneuron-associated transcription factor,NA,NA,NA,NA,NA,Not found in DESeq2 results
+Gal,Inhibitory,Subtype-associated,Inhibitory subtype-associated marker,ENSMUSG00000024907,122.6866856953102,1.2894821887408598,0.02858047938369713,0.9999842964361042,Not significant
+Npy,Inhibitory,Subtype-associated,Inhibitory subtype-associated marker,ENSMUSG00000029819,266.3159993130333,0.4997406409954999,0.12385417333789896,0.9999842964361042,Not significant
+Pdyn,Inhibitory,Subtype-associated,Inhibitory subtype-associated marker,NA,NA,NA,NA,NA,Not found in DESeq2 results
+Nos1,Inhibitory,Subtype-associated,Inhibitory subtype-associated marker,NA,NA,NA,NA,NA,Not found in DESeq2 results
+Slc17a6,Excitatory,Core identity,Vesicular glutamate transporter; broad excitatory marker,ENSMUSG00000030500,19.861964338589917,-0.41334862028509206,0.5580261048970768,0.9999842964361042,Not significant
+Grp,Excitatory,Subtype-associated,Excitatory subtype-associated marker,ENSMUSG00000024517,6.514282905742687,0.5068876286289212,0.8024702010333088,0.9999842964361042,Not significant
+Cck,Excitatory,Subtype-associated,Excitatory subtype-associated marker,ENSMUSG00000032532,8.655344453731587,-0.11930941329761265,0.8874811054975424,0.9999842964361042,Not significant
+Rorb,Excitatory,Subtype-associated,Excitatory subtype-associated marker,ENSMUSG00000036192,185.46027035266124,-0.5672978453276899,0.8512539244311401,0.9999842964361042,Not significant
+Tac1,Excitatory,Subtype-associated,Excitatory subtype-associated marker,ENSMUSG00000061762,1.6822149108377296,-0.6608045804515266,0.7093355613378812,0.9999842964361042,Not significant
+Sst,Excitatory,Subtype-associated,Excitatory subtype-associated marker,NA,NA,NA,NA,NA,Not found in DESeq2 results
+Crh,Excitatory,Subtype-associated,Excitatory subtype-associated marker,NA,NA,NA,NA,NA,Not found in DESeq2 results
+Prkcg,Excitatory,Subtype-associated,Excitatory subtype-associated marker,NA,NA,NA,NA,NA,Not found in DESeq2 results
